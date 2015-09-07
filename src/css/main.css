@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: courier;
+  background-color: black;
+  color: #33FF33;
+}
+
+h1 {
+  font-weight: normal;
+  /*display: inline;*/
+}
+
+.blinker {
+  background-color: rgb(51, 255, 51);
+  height: .8em;
+  width: .6em;
+  display: inline-block;
+}
+
+.button {
+  color: #33FF33;
+  /* background-color: white; */
+  width: 100px;
+  height: 1em;
+  /* border-radius: 5px; */
+  text-align: left;
+  line-height: 1em;
+  display: inline-block;
+}
+
+.score {
+  width: 100px;
+  display: inline-block;
+  margin-left: 245px;
+}
+
+.meter {
+  margin: auto;
+  display: block;
+  height: 40px;
+  width: 540px;
+  /* border: 1px solid green; */
+}
+.level {
+  color: black;
+  text-align: center;
+  line-height: 40px;
+  display: inline-block;
+  margin: none;
+  height: 40px;
+  width: 58.5px;
+  /* border: 1px solid green; */
+}
+
+.field {
+  margin: auto;
+  border-top: dashed rgb(51, 255, 51) 2px;
+  border-bottom: dashed rgb(51, 255, 51) 2px;
+  height: 540px;
+  width: 540px;
+}
+
+.hole {
+  margin: none;
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+.cheat {
+  height: 300px;
+  width: 300px;
+}

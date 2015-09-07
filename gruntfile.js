@@ -75,10 +75,10 @@ var randomPort = getRandomInt(3000, 65536);
             cwd: 'src/',
             src: [
               '**',
-              '!**/*.html',
-              '!**/*.css',
-              '!**/*.js',
-              '!**/*.otf'
+              '**/*.html',
+              '**/*.css',
+              '**/*.js',
+              '**/*.otf'
             ],
             dest: 'public/',
             filter: 'isFile'
